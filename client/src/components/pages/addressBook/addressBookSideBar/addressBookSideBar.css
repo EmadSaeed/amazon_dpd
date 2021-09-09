@@ -1,0 +1,52 @@
+.addressBookSideBar {
+    width: 30%;
+    min-height:  calc(100vh - 110px);
+    background-color: rgb(164, 164, 164);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: #000 1px solid;
+}
+
+.deliveryInfoItem {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12); 
+    background-color: #fff;
+    /* border-radius: 5px; */
+    /* margin-bottom: 1px; */
+}
+
+.deliveryInfoContainer.selected {
+    background-color: #97d7f5;
+}
+
+.flag {
+    width: 25px;
+    height: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.addressShort {
+    margin-left: 10px;
+    line-height: 15px;
+
+}
+.addressShortTop {
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+#active {
+    background-color: #97d7f5 !important;
+}
+
+.MuiPaper-root {
+    margin: 0 !important;
+}
+
+.addressBookPagination {
+    margin-bottom: 20px !important;
+    background-color: crimson ;
+}
