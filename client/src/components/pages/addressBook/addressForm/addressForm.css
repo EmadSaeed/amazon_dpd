@@ -1,0 +1,40 @@
+.newAddress {
+    flex: 5;
+    padding: 40px;
+
+}
+.newAddressHeader {
+    margin: 40px 40px 0px 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color:#009be5;
+    padding-bottom: 30px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.12); */
+}
+
+
+.newAddressFooter {
+    display: flex;
+    justify-content: flex-end;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.12); */
+    
+    }
+    
+    .newAddressAddButton {
+        margin-right: 70px !important;
+        margin-top: 20px !important;
+        color: #009be5 !important;
+    }
+    
+    
+    .CancelButton {
+        margin-right: 40px !important;
+        margin-top: 40px !important;
+        color: #e500005b !important;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+    
+    .CancelButton:hover {
+        color: #e50000c9 !important;
+    }
