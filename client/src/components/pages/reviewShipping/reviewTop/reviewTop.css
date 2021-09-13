@@ -1,0 +1,13 @@
+/* .reviewTop{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.tdHeader {
+    text-align: left !important;
+}
+
+.tdLine {
+    text-align: left !important;
+    font-weight: 600;
+}
