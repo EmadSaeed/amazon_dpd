@@ -1,0 +1,74 @@
+.pleaseSelect{
+    margin: 20px 40px;
+    color: rgb(74, 73, 73) !important;
+}
+
+.addressViewContainer{
+    width: 70%;
+    padding: 10px 20px;
+}
+
+.addressView {
+    max-width: 90%;
+    margin: 30px 50px 30px 30px;
+    padding: 0 30px;
+    /* border: 1px solid rgba(0, 0, 0, 0.12);  */
+    border-radius: 10px;
+    /* -webkit-box-shadow: 0px 0px 4px 0px #000000; 
+    box-shadow: 0px 0px 4px 0px #000000; */
+}
+
+.addressLine {
+    line-height: 30px;
+    list-style: none;
+}
+
+.addressLineLabel {
+    color:rgb(62, 62, 62);
+    font-weight: 300;
+}
+
+.addressLineInfo {
+    padding: 3px;
+    font-size: 0.9em;
+    font-weight: 900;
+    margin-left: 3px;
+}
+
+.addressViewHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.addressViewBody {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* .addressViewTitle {
+    margin-left: 40px;
+} */
+
+.addressViewSubtitle {
+    /* margin-left: 40px; */
+    margin-bottom: 0;
+}
+
+.addressViewFooter {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.addressViewEditButton {
+    width: 80px;
+    border: none !important;
+}
+.addressViewDeleteButton {
+    width: 80px;
+    margin-right: 40px !important;
+    border: none !important;
+}
