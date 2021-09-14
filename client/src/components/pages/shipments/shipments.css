@@ -1,0 +1,26 @@
+.shipments{
+    flex: 5;
+    padding: 40px;
+}
+
+.shipmentsHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #2e3e4f;
+}
+
+.tableRow {
+    cursor: pointer;
+}
+
+.pleaseSelect {
+    padding: 20px !important;
+}
+
+.boxesHeader {
+    margin: 30px auto 20px 10px !important;
+}
